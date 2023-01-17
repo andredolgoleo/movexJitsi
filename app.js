@@ -61,5 +61,3 @@ window.APP = {
 // the execution of the Web app to start from app.js in order to reduce the
 // complexity of the beginning step.
 import './react';
-
-console.log(123)
