@@ -29,6 +29,7 @@ export class App extends AbstractApp {
     _createMainElement(component, props) {
         return (
             <JitsiThemeProvider>
+                <h1>Hello world</h1>
                 <AtlasKitThemeProvider mode = 'dark'>
                     <GlobalStyles />
                     <ChromeExtensionBanner />
